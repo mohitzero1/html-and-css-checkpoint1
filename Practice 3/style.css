@@ -1,0 +1,158 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* custom styles */
+
+h1 {
+    font-size: 36px;
+    text-align: center;
+    font-weight: bold;
+    padding: 50px;
+}
+
+hr {
+    margin: 60px 600px;
+    border: 2px solid palevioletred;
+}
+
+.box {
+    width: 350px;
+    height: 350px;
+    background-color: cadetblue;
+    border: 20px solid black;
+    outline: 10px solid orange;
+    box-shadow: 0 0 0 30px blueviolet;
+    margin: 100px auto;
+}
+
+.circle {
+    width: 20px;
+    height: 20px;
+    background-color: chartreuse;
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.border {
+    background-color: blueviolet;
+}
+
+.padding {
+    background-color: turquoise;
+}
+
+.margin {
+    background-color: darkmagenta;
+}
+
+
+.aqua {
+    text-align: center;
+
+}
+
+.level {
+    display: inline-block;
+    margin-right: 38px;
+}
+
+h2 {
+    font-size: 36px;
+    text-align: center;
+    font-weight: bold;
+    padding: 60px;
+}
+
+.parent {
+    width: 700px;
+    border: 3px double chartreuse;
+    margin: 100px auto;
+}
+
+.child {
+    width: 180px;
+    height: 100px;
+    background-color: darkmagenta;
+    margin: 25px;
+    display: inline-block;
+    box-shadow: 0 0 10px 0;
+}
+
+.container {
+    width: 610px;
+    border: 3px double orange;
+    margin: 50px auto;
+    background-color: khaki;
+    box-shadow: 0 0 20px 0;
+}
+
+.small-box {
+    width: 180px;
+    height: 100px;
+    display: inline-block;
+    margin: 61.5px;
+    background-color: crimson;
+    box-shadow: 0 0 20px 0;
+}
+
+.parent-container {
+    width: 773px;
+    border: 8px double magenta;
+    margin: 50px auto;
+}
+
+.child-box {
+    width: 170px;
+    height: 170px;
+    background-color: turquoise;
+    display: inline-block;
+    margin: 10px;
+    box-shadow: 0 0 30px 0;
+}
