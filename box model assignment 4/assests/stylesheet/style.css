@@ -1,0 +1,150 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* customs styles */
+
+body {
+    line-height: 1.8;
+}
+
+.heading {
+    background-color: #2e313f;
+    padding: 30px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 36px;
+    margin: 20px 0;
+    text-transform: capitalize;
+    color: #fff;
+}
+
+header a {
+    font-size: 24px;
+    margin:20px;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.container {
+    width: 1300px;
+    margin: 0 auto;
+}
+
+.hero {
+    background-color: #2e313f;
+    padding: 120px 0;
+}
+
+.hero-heading {
+   font-size: 40px;
+   text-transform: uppercase;
+   color: #fff;
+}
+
+hr {
+    border: 1px solid gray;
+    margin: 40px 0;
+    
+}
+
+.hero-text {
+    font-size: 24px;
+    color: #fff;
+}
+
+.blog {
+    background-color: #4c5c95;
+    padding: 60px 0;
+}
+
+.article-heading {
+    font-size: 36px;
+    padding: 20px 0;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+}    
+
+.article-text {
+    color: #fff;
+    padding: 30px 0;
+}
+
+.article-link {
+    font-size: 15px;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.blog-two {
+    background-color: #45548d;
+    padding: 50px 0;
+}
+
+.blog-three {
+    background-color: #3f4e85;
+    padding: 50px 0;
+}
+
+.footer {
+    background-color: #2e313f;
+    padding: 23px;
+    font-size: 22px;
+    text-transform: capitalize;
+}
