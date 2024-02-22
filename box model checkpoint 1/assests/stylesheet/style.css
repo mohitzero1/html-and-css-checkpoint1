@@ -1,0 +1,166 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* customs styles */
+
+body {
+    line-height: 1.5;
+}
+
+header {
+    background-color: rgb(4, 4, 54);
+    padding: 30px;
+    text-align: center;
+    font-size: 36px;
+}
+
+header a {
+    margin: 0 30px;
+    text-decoration: none;
+    color: #fff;
+}
+
+header a:hover {
+	color: green;
+}
+
+.active {
+	color: green;
+}
+
+.box {
+	width: 280px;
+	height: 260px;
+	background-color: #99daca;
+	display: inline-block;
+	border: 24px solid #5873e2;
+	outline: 15px solid #0d1430;
+	box-shadow: 0 0 0 35px #90ffa9;
+	border-radius: 3%;
+	margin: 30px 0;
+}
+
+.blog {
+	text-align: center;
+}
+
+h1 {
+	font-size: 56px;
+	margin: 40px 0;
+	text-transform: capitalize;
+}
+
+h2 {
+	font-size: 40px;
+	margin-bottom: 20px;
+	text-transform: capitalize;
+}
+
+hr {
+	margin: 30px 500px;
+	border: 1px dashed gray;
+}
+
+.circle {
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	background: #99daca;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.level {
+	margin: 50px 0;
+}
+
+.aqua {
+    margin-right: 24px;
+	display: inline-block;
+}
+
+.black {
+	background-color: #0d1430;
+}
+
+.green {
+	background-color: #90ffa9;
+}
+
+.blue {
+	background-color: #5873e2;
+}
+
+.container {
+	width: 660px;
+	border: 2px solid;
+	margin: 40px auto;
+	font-size: 0;
+}
+
+.small-box {
+	width: 200px;
+	height: 180px;
+	background-color: gray;
+	display: inline-block;
+	margin: 10px;
+}
+
+.small-box2 {
+	width: 200px;
+	height: 180px;
+	background-color: gray;
+	display: inline-block;
+	margin: 10px;
+	border: 2px solid;
+	box-sizing: border-box;
+}
+
+
+
